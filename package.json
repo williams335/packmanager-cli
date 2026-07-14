@@ -2,13 +2,16 @@
   "name": "packmanager",
   "version": "0.1.0",
   "description": "Install real, curated Skills and MCPs for your AI coding agent — the CLI behind packmanager.dev.",
+  "license": "MIT",
+  "author": "Williams Koffi",
   "type": "module",
   "bin": {
     "packmanager": "dist/cli.js"
   },
   "files": [
     "dist",
-    "catalog"
+    "catalog",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=18"
