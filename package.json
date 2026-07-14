@@ -1,0 +1,34 @@
+{
+  "name": "packmanager",
+  "version": "0.1.0",
+  "description": "Install real, curated Skills and MCPs for your AI coding agent — the CLI behind packmanager.dev.",
+  "type": "module",
+  "bin": {
+    "packmanager": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "catalog"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1",
+    "tar": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/tar": "^6.1.13",
+    "tsup": "^8.3.5",
+    "typescript": "^5",
+    "vitest": "^3.0.5"
+  }
+}

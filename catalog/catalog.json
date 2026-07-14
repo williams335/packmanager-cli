@@ -1,0 +1,1666 @@
+{
+  "generatedAt": "2026-07-14",
+  "skills": [
+    {
+      "id": "docx",
+      "type": "skill",
+      "desc": "Create and edit Word documents with styles, tables, tracked changes and templates.",
+      "v": "2.4.1",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/docx"
+      }
+    },
+    {
+      "id": "pdf",
+      "type": "skill",
+      "desc": "Generate print-ready PDFs from HTML or markdown — forms, invoices, reports.",
+      "v": "3.1.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/pdf"
+      }
+    },
+    {
+      "id": "pptx",
+      "type": "skill",
+      "desc": "Build native PowerPoint decks with editable shapes, charts and speaker notes.",
+      "v": "1.9.2",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/pptx"
+      }
+    },
+    {
+      "id": "xlsx",
+      "type": "skill",
+      "desc": "Read, transform and write Excel workbooks with formulas and pivot-safe output.",
+      "v": "2.0.3",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/xlsx"
+      }
+    },
+    {
+      "id": "frontend-design",
+      "type": "skill",
+      "desc": "Opinionated frontend aesthetics: type scales, spacing systems, bold art direction.",
+      "v": "4.2.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/frontend-design"
+      }
+    },
+    {
+      "id": "canvas-design",
+      "type": "skill",
+      "desc": "Compose social posts, banners and OG images on fixed-size canvases.",
+      "v": "2.1.1",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/canvas-design"
+      }
+    },
+    {
+      "id": "git-workflow",
+      "type": "skill",
+      "desc": "Safely analyzes and cleans up local git branches and worktrees — merged, squash-merged, superseded, or active.",
+      "v": "2.5.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "trailofbits/skills",
+        "ref": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+        "subpath": "plugins/git-cleanup/skills/git-cleanup"
+      }
+    },
+    {
+      "id": "security-audit",
+      "type": "skill",
+      "desc": "Detects fail-open insecure defaults — hardcoded secrets, weak auth, permissive security — that let apps run insecurely in production.",
+      "v": "3.2.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "trailofbits/skills",
+        "ref": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+        "subpath": "plugins/insecure-defaults/skills/insecure-defaults"
+      }
+    },
+    {
+      "id": "skill-creator",
+      "type": "skill",
+      "desc": "Meta-skill that scaffolds new, well-formed Skills — structure, instructions, scripts.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/skill-creator"
+      }
+    },
+    {
+      "id": "mcp-builder",
+      "type": "skill",
+      "desc": "Scaffolds a new MCP server from a description of the tools it should expose.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/mcp-builder"
+      }
+    },
+    {
+      "id": "webapp-testing",
+      "type": "skill",
+      "desc": "Drives a real browser against a running app to verify a change end-to-end.",
+      "v": "1.1.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/webapp-testing"
+      }
+    },
+    {
+      "id": "brand-guidelines",
+      "type": "skill",
+      "desc": "Keeps visual output consistent with a defined brand system across sessions.",
+      "v": "1.0.3",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/brand-guidelines"
+      }
+    },
+    {
+      "id": "web-artifacts-builder",
+      "type": "skill",
+      "desc": "Structures rich, interactive Claude.ai artifacts from a single prompt.",
+      "v": "1.2.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+        "subpath": "skills/web-artifacts-builder"
+      }
+    },
+    {
+      "id": "web-interface-guidelines",
+      "type": "skill",
+      "desc": "Reviews UI code against 100+ rules spanning accessibility, performance and UX.",
+      "v": "0.9.2",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "vercel-labs/web-interface-guidelines",
+        "ref": "4e799d45c17aec1498c269287a83b9dba22b966b",
+        "subpath": "command.md",
+        "installType": "command"
+      }
+    },
+    {
+      "id": "supply-chain-risk-auditor",
+      "type": "skill",
+      "desc": "Traces third-party dependencies for supply-chain risk, from an offensive-security research firm.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "trailofbits/skills",
+        "ref": "cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af",
+        "subpath": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor"
+      }
+    },
+    {
+      "id": "superpowers",
+      "type": "skill",
+      "desc": "TDD workflow enforcement — red/green/refactor, brainstorm/spec/plan/review. The largest community skill framework (250k+ stars).",
+      "v": "3.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "ref": "d884ae04edebef577e82ff7c4e143debd0bbec99",
+        "subpath": "skills/using-superpowers"
+      }
+    },
+    {
+      "id": "taste-skill",
+      "type": "skill",
+      "desc": "Gives your AI good taste — blocks boring, generic \"AI slop\" output in favor of considered design choices.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "Leonxlnx/taste-skill",
+        "ref": "b17742737e796305d829b3ad39eda3add0d79060",
+        "subpath": "skills/taste-skill"
+      }
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "type": "skill",
+      "desc": "Local design-intelligence database — styles, palettes, font pairings and UX guidelines across 10 stacks.",
+      "v": "2.11.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "ref": "fe3f65e5d0203341b40b7db80650501cd9de4961",
+        "subpath": ".claude/skills/ui-ux-pro-max"
+      }
+    },
+    {
+      "id": "ruflo",
+      "type": "skill",
+      "desc": "Multi-agent orchestration meta-harness — coordinates autonomous agent swarms with adaptive memory and RAG.",
+      "v": "3.28.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "ruvnet/ruflo",
+        "ref": "73914bd2bea43eeaf85b9434b155398397e03c2c",
+        "subpath": "plugins/ruflo-core/skills/init-project"
+      }
+    },
+    {
+      "id": "archify",
+      "type": "skill",
+      "desc": "Generates architecture diagrams from a codebase, with dark/light themes and PNG/SVG export.",
+      "v": "2.10.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "tt-a1i/archify",
+        "ref": "6486a5d89f08affc929bc3082ff9414d46200f5e",
+        "subpath": "archify"
+      }
+    },
+    {
+      "id": "hue",
+      "type": "skill",
+      "desc": "Learns a brand from examples and turns it into a reusable design system your agent builds UI against.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "dominikmartn/hue",
+        "ref": "a910e31cd24b45b9455c0c3502150413aa5a3b32"
+      }
+    },
+    {
+      "id": "n8n-skills",
+      "type": "skill",
+      "desc": "Skillset for building correct n8n workflows — node config, expressions and validation. Distinct from the n8n-mcp connector.",
+      "v": "1.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "czlonkowski/n8n-skills",
+        "ref": "9ea3aa58cff22ad9a014b402dea5b8bd03c8ae25",
+        "subpath": "skills/using-n8n-mcp-skills"
+      }
+    },
+    {
+      "id": "generative-media-skills",
+      "type": "skill",
+      "desc": "Image, video and audio generation for agents — storyboard a scene, then produce the asset.",
+      "v": "1.2.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "SamurAIGPT/Generative-Media-Skills",
+        "ref": "a1c4c98c78a80c99533c81f46efc19443025759a",
+        "subpath": "core/media"
+      }
+    },
+    {
+      "id": "higgsfield-skill",
+      "type": "skill",
+      "desc": "Official Higgsfield skill — image/video generation, Marketing Studio and Virality Predictor scoring, from a prompt.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "higgsfield-ai/skills",
+        "ref": "88493ddc65863c2ad3814250a400515a5770b8da",
+        "subpath": "higgsfield-generate"
+      }
+    },
+    {
+      "id": "storybloq",
+      "type": "skill",
+      "desc": "Cross-session project memory — tracks tickets, issues and handovers in a .story/ directory your agent reads.",
+      "v": "1.7.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "Storybloq/storybloq",
+        "ref": "1a0f76dc644878006ff749504f8c59eea255f313",
+        "subpath": "src/skill"
+      }
+    },
+    {
+      "id": "find-skills",
+      "type": "skill",
+      "desc": "Searches the open Skills ecosystem for the right skill to install for a given task, then installs it.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "vercel-labs/skills",
+        "ref": "main",
+        "subpath": "skills/find-skills"
+      }
+    },
+    {
+      "id": "grill-me",
+      "type": "skill",
+      "desc": "Interviews you about a plan or design, working through every open decision until nothing is left unresolved.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx"
+      ],
+      "source": {
+        "repo": "mattpocock/skills",
+        "ref": "main",
+        "subpath": "skills/grill-me"
+      }
+    }
+  ],
+  "mcps": [
+    {
+      "id": "github",
+      "type": "mcp",
+      "desc": "Issues, PRs, reviews, releases and Actions — full GitHub control from your agent.",
+      "v": "1.5.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "http",
+        "url": "https://api.githubcopilot.com/mcp/"
+      }
+    },
+    {
+      "id": "gitlab",
+      "type": "mcp",
+      "desc": "Merge requests, pipelines and issues for GitLab, self-hosted included.",
+      "v": "2.3.1",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-gitlab"
+        ],
+        "env": {
+          "GITLAB_PERSONAL_ACCESS_TOKEN": ""
+        }
+      }
+    },
+    {
+      "id": "vercel",
+      "type": "mcp",
+      "desc": "Deployments, domains, env vars and logs across your Vercel projects.",
+      "v": "3.0.2",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.vercel.com/"
+      }
+    },
+    {
+      "id": "linear",
+      "type": "mcp",
+      "desc": "Create and triage issues, manage cycles and projects in Linear.",
+      "v": "2.8.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.linear.app/mcp"
+      }
+    },
+    {
+      "id": "jira",
+      "type": "mcp",
+      "desc": "Tickets, sprints and JQL search for Jira Cloud and Data Center.",
+      "v": "1.9.4",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "sse",
+        "url": "https://mcp.atlassian.com/v1/sse"
+      }
+    },
+    {
+      "id": "sentry",
+      "type": "mcp",
+      "desc": "Query errors, releases and performance issues; link stack traces to code.",
+      "v": "1.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@sentry/mcp-server"
+        ],
+        "env": {
+          "SENTRY_AUTH_TOKEN": ""
+        }
+      }
+    },
+    {
+      "id": "notion",
+      "type": "mcp",
+      "desc": "Read and write pages, databases and comments in your Notion workspace.",
+      "v": "4.0.1",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@notionhq/notion-mcp-server"
+        ],
+        "env": {
+          "NOTION_TOKEN": ""
+        }
+      }
+    },
+    {
+      "id": "slack",
+      "type": "mcp",
+      "desc": "Post messages, read channels and manage threads across workspaces.",
+      "v": "3.5.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-slack"
+        ],
+        "env": {
+          "SLACK_BOT_TOKEN": "",
+          "SLACK_TEAM_ID": ""
+        }
+      }
+    },
+    {
+      "id": "airtable",
+      "type": "mcp",
+      "desc": "Query and update Airtable bases with schema-aware writes.",
+      "v": "1.13.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "airtable-mcp-server"
+        ],
+        "env": {
+          "AIRTABLE_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "stripe",
+      "type": "mcp",
+      "desc": "Customers, subscriptions, invoices and payment analytics — read-safe by default.",
+      "v": "3.3.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@stripe/mcp"
+        ],
+        "env": {
+          "STRIPE_SECRET_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "supabase",
+      "type": "mcp",
+      "desc": "Query Postgres, manage auth and storage on your Supabase projects.",
+      "v": "2.9.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@supabase/mcp-server-supabase"
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": ""
+        }
+      }
+    },
+    {
+      "id": "postgresql",
+      "type": "mcp",
+      "desc": "Safe, read-first SQL access to any Postgres database with query plans.",
+      "v": "4.1.2",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Connection string",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-postgres"
+        ],
+        "env": {
+          "DATABASE_URL": ""
+        }
+      }
+    },
+    {
+      "id": "mongodb",
+      "type": "mcp",
+      "desc": "Aggregations, index advice and schema exploration for MongoDB.",
+      "v": "2.0.4",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Connection string",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "mongodb-mcp-server@latest",
+          "--readOnly"
+        ],
+        "env": {
+          "MDB_MCP_CONNECTION_STRING": ""
+        }
+      }
+    },
+    {
+      "id": "figma",
+      "type": "mcp",
+      "desc": "Inspect files, styles and components; export assets from Figma.",
+      "v": "2.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.figma.com/mcp"
+      }
+    },
+    {
+      "id": "canva",
+      "type": "mcp",
+      "desc": "Create and edit Canva designs from structured briefs.",
+      "v": "1.0.6",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.canva.com/mcp"
+      }
+    },
+    {
+      "id": "context7",
+      "type": "mcp",
+      "desc": "Live, version-correct library docs injected into context — stops agents hallucinating APIs. The most-used MCP server overall.",
+      "v": "3.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@upstash/context7-mcp"
+        ],
+        "env": {
+          "CONTEXT7_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "playwright",
+      "type": "mcp",
+      "desc": "Browser automation and end-to-end testing, official Microsoft server.",
+      "v": "1.6.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "None",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      }
+    },
+    {
+      "id": "cloudflare",
+      "type": "mcp",
+      "desc": "Manage Workers, D1, R2 and KV from your agent.",
+      "v": "1.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "http",
+        "url": "https://bindings.mcp.cloudflare.com/mcp"
+      }
+    },
+    {
+      "id": "aws",
+      "type": "mcp",
+      "desc": "Family of official servers covering core AWS services — S3, Lambda, DynamoDB and more.",
+      "v": "2.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "stdio",
+        "runtime": "uvx",
+        "command": "uvx",
+        "args": [
+          "awslabs.aws-api-mcp-server@latest"
+        ],
+        "env": {
+          "AWS_REGION": "us-east-1"
+        }
+      }
+    },
+    {
+      "id": "neon",
+      "type": "mcp",
+      "desc": "Serverless Postgres branching, provisioning and query access.",
+      "v": "1.1.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.neon.tech/mcp"
+      }
+    },
+    {
+      "id": "twilio",
+      "type": "mcp",
+      "desc": "SMS and voice messaging from your agent.",
+      "v": "0.7.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@twilio-alpha/mcp",
+          "ACCOUNT_SID/API_KEY:API_SECRET"
+        ]
+      }
+    },
+    {
+      "id": "ui-ux-pro",
+      "type": "mcp",
+      "desc": "1,500+ curated UI/UX design patterns and platform guidelines, queryable as structured tools.",
+      "v": "1.5.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "None",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "ui-ux-pro-mcp"
+        ]
+      }
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "type": "mcp",
+      "desc": "Gives an agent real Chrome DevTools — inspect, debug and profile a live page. Official Chrome DevTools team server.",
+      "v": "1.6.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "None",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "chrome-devtools-mcp@latest"
+        ]
+      }
+    },
+    {
+      "id": "serena",
+      "type": "mcp",
+      "desc": "Semantic code retrieval and editing toolkit — turns an agent into a lightweight IDE via LSP.",
+      "v": "1.5.3",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "None",
+      "source": {
+        "transport": "stdio",
+        "runtime": "uvx",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "serena-agent",
+          "serena",
+          "start-mcp-server",
+          "--context=claude-code"
+        ]
+      }
+    },
+    {
+      "id": "n8n-mcp",
+      "type": "mcp",
+      "desc": "Build and manage n8n workflows from your agent — nodes, credentials and executions.",
+      "v": "2.63.2",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "n8n-mcp"
+        ],
+        "env": {
+          "N8N_API_URL": "",
+          "N8N_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "minimax-mcp",
+      "type": "mcp",
+      "desc": "Official MiniMax server for text-to-speech, image generation and video generation from your agent.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "uvx",
+        "command": "uvx",
+        "args": [
+          "minimax-mcp",
+          "-y"
+        ],
+        "env": {
+          "MINIMAX_API_KEY": "",
+          "MINIMAX_MCP_BASE_PATH": "",
+          "MINIMAX_API_HOST": "https://api.minimax.io"
+        }
+      }
+    },
+    {
+      "id": "higgsfield-mcp",
+      "type": "mcp",
+      "desc": "Cloud connector to 30+ image and video generation models — up to 4K images and 15s clips — from your agent.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.higgsfield.ai/mcp"
+      }
+    },
+    {
+      "id": "firecrawl",
+      "type": "mcp",
+      "desc": "Web scraping, crawling and site mapping — turns any page or site into clean markdown or structured data.",
+      "v": "3.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "firecrawl-mcp"
+        ],
+        "env": {
+          "FIRECRAWL_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "exa",
+      "type": "mcp",
+      "desc": "Web, code and company search built for AI agents, with a hosted and self-hosted option.",
+      "v": "2.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "exa-mcp-server"
+        ],
+        "env": {
+          "EXA_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "redis-mcp",
+      "type": "mcp",
+      "desc": "Official Redis server — strings, hashes, streams, pub/sub and vector search over natural language.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Connection string",
+      "source": {
+        "transport": "stdio",
+        "runtime": "uvx",
+        "command": "uvx",
+        "args": [
+          "--from",
+          "redis-mcp-server",
+          "redis-mcp-server"
+        ],
+        "env": {
+          "REDIS_HOST": "",
+          "REDIS_PORT": "6379"
+        }
+      }
+    },
+    {
+      "id": "terraform",
+      "type": "mcp",
+      "desc": "Official HashiCorp server — Terraform Registry lookups plus HCP Terraform workspace management.",
+      "v": "0.4.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "Token",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@hashicorp/terraform-mcp-server"
+        ]
+      }
+    },
+    {
+      "id": "grafana",
+      "type": "mcp",
+      "desc": "Query dashboards, Prometheus/Loki datasources, alerts and on-call schedules from your agent.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "mcp-grafana"
+        ],
+        "env": {
+          "GRAFANA_URL": "",
+          "GRAFANA_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "magic-mcp",
+      "type": "mcp",
+      "desc": "Generates polished, ready-to-use React UI components from a natural-language description.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@21st-dev/magic@latest"
+        ],
+        "env": {
+          "API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "browserbase",
+      "type": "mcp",
+      "desc": "Cloud browser sessions for agents — navigate, click, extract and observe pages at scale.",
+      "v": "2.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.browserbase.com/mcp"
+      }
+    },
+    {
+      "id": "docker-mcp",
+      "type": "mcp",
+      "desc": "Official Docker gateway for running and managing MCP servers themselves as isolated containers.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "None",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "docker-mcp"
+        ]
+      }
+    },
+    {
+      "id": "zapier",
+      "type": "mcp",
+      "desc": "Official Zapier connector — trigger and chain workflows across 9,000+ connected apps.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "http",
+        "url": "https://mcp.zapier.com/mcp"
+      }
+    },
+    {
+      "id": "heroku",
+      "type": "mcp",
+      "desc": "Official Heroku server — apps, dynos, add-ons, pipelines and Postgres, managed from your agent.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@heroku/mcp-server"
+        ],
+        "env": {
+          "HEROKU_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "perplexity-mcp",
+      "type": "mcp",
+      "desc": "Official Perplexity server — real-time web search, reasoning and deep research via the Sonar models.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "server-perplexity-ask"
+        ],
+        "env": {
+          "PERPLEXITY_API_KEY": ""
+        }
+      }
+    },
+    {
+      "id": "paypal",
+      "type": "mcp",
+      "desc": "Official PayPal server — invoices, orders, refunds, disputes and subscription management.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@paypal/mcp"
+        ],
+        "env": {
+          "PAYPAL_ACCESS_TOKEN": ""
+        }
+      }
+    },
+    {
+      "id": "square",
+      "type": "mcp",
+      "desc": "Official Square server — payments, customers, inventory and bookings across 40+ Square services.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "OAuth",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "square-mcp-server"
+        ]
+      }
+    },
+    {
+      "id": "resend",
+      "type": "mcp",
+      "desc": "Official Resend server — send email, manage contacts, broadcasts and domains from your agent.",
+      "v": "1.0.0",
+      "agents": [
+        "cc",
+        "cur",
+        "gem",
+        "ws",
+        "cdx",
+        "cd"
+      ],
+      "auth": "API key",
+      "source": {
+        "transport": "stdio",
+        "runtime": "npx",
+        "command": "npx",
+        "args": [
+          "-y",
+          "resend-mcp"
+        ],
+        "env": {
+          "RESEND_API_KEY": ""
+        }
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "id": "developer",
+      "label": "--profile developer",
+      "skills": [
+        "git-workflow",
+        "security-audit",
+        "webapp-testing",
+        "superpowers",
+        "find-skills"
+      ],
+      "mcps": [
+        "github",
+        "linear",
+        "postgresql",
+        "sentry",
+        "context7",
+        "chrome-devtools-mcp",
+        "serena",
+        "terraform",
+        "grafana"
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "--profile frontend",
+      "skills": [
+        "frontend-design",
+        "web-interface-guidelines",
+        "taste-skill",
+        "ui-ux-pro-max"
+      ],
+      "mcps": [
+        "github",
+        "figma",
+        "vercel",
+        "linear",
+        "playwright",
+        "ui-ux-pro",
+        "chrome-devtools-mcp",
+        "magic-mcp",
+        "browserbase"
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "--profile backend",
+      "skills": [
+        "security-audit",
+        "supply-chain-risk-auditor",
+        "superpowers"
+      ],
+      "mcps": [
+        "github",
+        "postgresql",
+        "supabase",
+        "sentry",
+        "cloudflare",
+        "aws",
+        "neon",
+        "docker-mcp",
+        "redis-mcp",
+        "heroku"
+      ]
+    },
+    {
+      "id": "data",
+      "label": "--profile data",
+      "skills": [
+        "xlsx",
+        "n8n-skills"
+      ],
+      "mcps": [
+        "postgresql",
+        "mongodb",
+        "neon",
+        "n8n-mcp",
+        "context7",
+        "redis-mcp",
+        "grafana"
+      ]
+    },
+    {
+      "id": "solopreneur",
+      "label": "--profile solopreneur",
+      "skills": [
+        "docx",
+        "pdf",
+        "pptx",
+        "canvas-design"
+      ],
+      "mcps": [
+        "notion",
+        "stripe",
+        "slack",
+        "twilio",
+        "paypal",
+        "resend",
+        "zapier"
+      ]
+    },
+    {
+      "id": "content-creator",
+      "label": "--profile content-creator",
+      "skills": [
+        "generative-media-skills",
+        "higgsfield-skill",
+        "canvas-design",
+        "hue"
+      ],
+      "mcps": [
+        "minimax-mcp",
+        "higgsfield-mcp",
+        "canva",
+        "n8n-mcp",
+        "slack"
+      ]
+    },
+    {
+      "id": "all",
+      "label": "--profile all",
+      "skills": [
+        "docx",
+        "pdf",
+        "pptx",
+        "xlsx",
+        "frontend-design",
+        "canvas-design",
+        "git-workflow",
+        "security-audit",
+        "skill-creator",
+        "mcp-builder",
+        "webapp-testing",
+        "brand-guidelines",
+        "web-artifacts-builder",
+        "web-interface-guidelines",
+        "supply-chain-risk-auditor",
+        "superpowers",
+        "taste-skill",
+        "ui-ux-pro-max",
+        "ruflo",
+        "archify",
+        "find-skills"
+      ],
+      "mcps": [
+        "github",
+        "gitlab",
+        "vercel",
+        "linear",
+        "jira",
+        "sentry",
+        "notion",
+        "slack",
+        "stripe",
+        "supabase",
+        "postgresql",
+        "mongodb",
+        "figma",
+        "context7",
+        "playwright",
+        "cloudflare",
+        "aws",
+        "neon",
+        "chrome-devtools-mcp",
+        "serena",
+        "n8n-mcp",
+        "firecrawl"
+      ]
+    }
+  ]
+}
