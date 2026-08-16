@@ -3,16 +3,16 @@
 The real CLI behind [packmanager.dev](https://packmanager.dev) — installs curated Skills and MCPs for your AI coding agent.
 
 ```bash
-npx packmanager install --skills taste-skill --mcps context7
-npx packmanager install --profile developer
-npx packmanager status
+npx @packmanager-dev/cli install --skills taste-skill --mcps context7
+npx @packmanager-dev/cli install --profile developer
+npx @packmanager-dev/cli status
 ```
 
 ## What this does, honestly
 
 - **Skills**: downloads the exact verified source repo/subpath from GitHub (no `git` required) and drops it into `.claude/skills/<id>/` (or `~/.claude/skills/<id>/` with `--global`).
 - **MCPs**: merges a real, verified server entry into `.mcp.json` at the project root — never overwrites an existing, different entry for the same id.
-- Only packages with a verified `source` in the catalog are installable. Everything else in the wider packmanager.dev catalog is still demo/unverified and will fail loudly rather than pretend to succeed — see `catalog/catalog.json`'s coverage vs. the web repo's `src/lib/registry.ts`.
+- Only packages with a verified `source` in the catalog are installable. The wider packmanager.dev catalog (Supabase-backed, see the web repo) also includes packages without a structured `source` yet — those will fail loudly rather than pretend to succeed. `catalog/catalog.json` in this repo is the installable subset only.
 
 ## Development
 
@@ -26,7 +26,7 @@ npm test
 
 ## Catalog
 
-`catalog/catalog.json` is vendored from the [Packmanager web repo](../Packmanager)'s `npm run export:catalog` — copy it over manually and bump the version whenever the web repo's verified real packages change. This is a deliberate manual seam (see that repo's `docs/ARCHITECTURE.md`, "repos séparés" decision) — no shared code or live API between the two repos yet.
+The catalog lives in a Supabase table, managed by the [Packmanager web repo](https://github.com/williams335/PackManager). `catalog/catalog.json` here is a vendored snapshot of the installable subset, produced by that repo's `npm run export:catalog` (which queries Supabase directly) — copy it over manually and bump the version whenever the verified packages change. This is a deliberate manual seam (see that repo's `docs/ARCHITECTURE.md`, "repos séparés" decision) — no shared code or live API between the two repos.
 
 ## Commands (v1)
 
